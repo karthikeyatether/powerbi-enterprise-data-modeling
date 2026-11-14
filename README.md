@@ -10,37 +10,6 @@
 
 ---
 
-## 🖼 Architecture Diagrams
-
-### 1. Power BI Desktop Model View
-<p align="center">
-  <img src="assets/powerbi_model_view.png" alt="Power BI Model View Star Schema" width="100%"/>
-</p>
-
-### 2. Conceptual Star Schema Architecture Diagram
-<p align="center">
-  <img src="assets/star_schema_architecture.svg" alt="Star Schema Architecture" width="100%"/>
-</p>
-
-### 3. Architecture Transformation (Before vs. After)
-<p align="center">
-  <img src="assets/before_after_comparison.svg" alt="Before vs After Architecture" width="100%"/>
-</p>
-
----
-
-## 📑 Executive Summary
-
-In enterprise business intelligence, over 90% of dashboard performance bottlenecks and calculation inaccuracies stem from flawed underlying data models—such as circular relationship loops, mismatched granularity, and improper fact-to-fact relationships.
-
-This project refactors a complex retail operation data model spanning **sales transactions, inventory levels, sales targets, marketing campaigns, and order fulfillment logistics**. The result is a clean, deterministic architecture featuring:
-* **Zero circular ambiguity** and **1-to-many (`1:*`) single-direction filter propagation**.
-* Seamless cross-filtering across **different grains** (Daily Sales vs. Monthly Targets vs. Monthly Inventory).
-* Optimized memory footprint and instant query execution.
-* **100% empirical reconciliation** across all KPIs (\$526.6K Sales, \$552K Targets, 73.9K Inventory Units).
-
----
-
 ## 🚨 The Starting "Nightmare" Architecture vs. The Solution
 
 | Challenge in Legacy Model | Architectural Impact | Refactored Solution |
