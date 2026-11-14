@@ -12,12 +12,17 @@
 
 ## 🖼 Architecture Diagrams
 
-### 1. The Optimized Star Schema (Target Architecture)
+### 1. Power BI Desktop Model View
+<p align="center">
+  <img src="assets/powerbi_model_view.png" alt="Power BI Model View Star Schema" width="100%"/>
+</p>
+
+### 2. Conceptual Star Schema Architecture Diagram
 <p align="center">
   <img src="assets/star_schema_architecture.svg" alt="Star Schema Architecture" width="100%"/>
 </p>
 
-### 2. Architecture Transformation (Before vs. After)
+### 3. Architecture Transformation (Before vs. After)
 <p align="center">
   <img src="assets/before_after_comparison.svg" alt="Before vs After Architecture" width="100%"/>
 </p>
