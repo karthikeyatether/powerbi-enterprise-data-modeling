@@ -6,7 +6,7 @@
 [![RLS](https://img.shields.io/badge/Security-Row_Level_Security_(RLS)-red?style=for-the-badge)](#5-dynamic-row-level-security-rls)
 [![Integrity Audit](https://img.shields.io/badge/Audit-100%25_Verified-success?style=for-the-badge)](#-empirical-data-reconciliation--audit-report)
 
-> **Portfolio Case Study:** An end-to-end enterprise data architecture project demonstrating how to diagnose, untangle, and refactor a severely degraded transactional data model (the *"Nightmare Data Model"*) into an optimized, high-performance **Kimball Star Schema** in Power BI.
+> **Portfolio Case Study:** An end-to-end enterprise data architecture project demonstrating how to diagnose, untangle, and refactor a severely degraded transactional data model (the *"Nightmare Data Model"*) into an optimized, high-performance **Star Schema** in Power BI.
 
 ---
 
@@ -51,7 +51,7 @@ This project refactors a complex retail operation data model spanning **sales tr
 
 ## 🏛 The Refactored Star Schema Architecture
 
-The finalized model strictly adheres to Kimball dimensional modeling principles, separating transactional events (**Facts**) from descriptive business context (**Dimensions**):
+The finalized model strictly adheres to dimensional modeling principles, separating transactional events (**Facts**) from descriptive business context (**Dimensions**):
 
 ```mermaid
 erDiagram

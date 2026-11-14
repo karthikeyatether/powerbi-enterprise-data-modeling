@@ -18,7 +18,7 @@
   </defs>
 
   <!-- Title & Subtitle -->
-  <text x="550" y="45" text-anchor="middle" fill="#f8fafc" font-size="24" font-weight="700" letter-spacing="0.5">Enterprise Kimball Star Schema Architecture</text>
+  <text x="550" y="45" text-anchor="middle" fill="#f8fafc" font-size="24" font-weight="700" letter-spacing="0.5">Enterprise Star Schema Architecture</text>
   <text x="550" y="70" text-anchor="middle" fill="#94a3b8" font-size="13">Multi-Fact Transactional Refactoring • 1-to-Many Unidirectional Filtering • Dynamic RLS</text>
 
   <!-- Legend -->
@@ -171,5 +171,5 @@
 
   <!-- Footer Banner -->
   <rect x="250" y="635" width="600" height="40" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
-  <text x="550" y="660" text-anchor="middle" fill="#38bdf8" font-size="12" font-weight="600">✔ 100% Deterministic Single-Direction Filtering  •  ✔ Zero Relationship Loops  •  ✔ Strict Kimball Star Schema</text>
+  <text x="550" y="660" text-anchor="middle" fill="#38bdf8" font-size="12" font-weight="600">✔ 100% Deterministic Single-Direction Filtering  •  ✔ Zero Relationship Loops  •  ✔ Strict Star Schema</text>
 </svg>
