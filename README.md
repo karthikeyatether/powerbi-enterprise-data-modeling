@@ -10,6 +10,20 @@
 
 ---
 
+## 🖼 Architecture Diagrams
+
+### 1. The Optimized Star Schema (Target Architecture)
+<p align="center">
+  <img src="assets/star_schema_architecture.svg" alt="Star Schema Architecture" width="100%"/>
+</p>
+
+### 2. Architecture Transformation (Before vs. After)
+<p align="center">
+  <img src="assets/before_after_comparison.svg" alt="Before vs After Architecture" width="100%"/>
+</p>
+
+---
+
 ## 📑 Executive Summary
 
 In enterprise business intelligence, over 90% of dashboard performance bottlenecks and calculation inaccuracies stem from flawed underlying data models—such as circular relationship loops, mismatched granularity, and improper fact-to-fact relationships.
